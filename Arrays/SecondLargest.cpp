@@ -1,4 +1,6 @@
 //SECOND LARGEST ELEMENT WITHOUT SORT
+#include<bits/stdc++.h>
+using namespace std;
 //brute with sort    (O(n log n))
 // for(i=n-1;i>=0;i--){
 //     if(arr[i]!= large){
