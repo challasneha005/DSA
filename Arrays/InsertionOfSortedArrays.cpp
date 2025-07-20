@@ -1,4 +1,6 @@
 //INSERTION OF TWO SORTED ARRAYS
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n+m)
 vector<int> insertionSortedBrute(vector<int> a, int n, vector<int> b, int m){
     vector<int> result;
