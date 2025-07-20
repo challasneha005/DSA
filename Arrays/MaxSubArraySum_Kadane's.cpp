@@ -1,4 +1,6 @@
 //MAXIMUM SUBARRAY SUM
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n*n)
 int maxSubArraySumBrute(int a[],int n){
     int maxi = INT_MIN;
