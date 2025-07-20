@@ -1,4 +1,6 @@
 //MISSING NUMBER in can be sort or unsort
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n)
 int missingBrute(int a[],int n){
     int flag;
