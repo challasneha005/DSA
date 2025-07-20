@@ -1,4 +1,6 @@
 // LEFT ROTATE d ELEMENTS
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n+d)
 void leftRotate(int arr[],int n,int d){
     d=d%n;
