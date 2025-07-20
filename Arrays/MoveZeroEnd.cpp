@@ -1,4 +1,6 @@
 //MOVING ZERO TO END
+#include<bits/stdc++.h>
+using namespace std;
 //brute  O(2n)
 void moveZeroesBrute(int arr[],int n){
     vector <int> temp;
