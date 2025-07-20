@@ -1,4 +1,6 @@
 // FIND NUMBER APPEARS ONCE,OTHERS TWICE
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n)
 int findSingleBrute(int a[],int n){
     for(int i=0;i<n;i++){
