@@ -1,4 +1,6 @@
 //NEXT PERMUTATION
+#include<bits/stdc++.h>
+using namespace std;
 //brute generate all ,linearsearch ,nect index--O(n*n*n)
 //better STL  
 void nextPermute(int a[],int n){
