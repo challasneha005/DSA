@@ -1,4 +1,6 @@
 // SORT  AN ARRAY OF 0,1,2
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(nlog n)  general sortings
 //better O(2n)
 void sortarray(int a[],int n){
