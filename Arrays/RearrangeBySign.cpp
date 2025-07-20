@@ -1,4 +1,6 @@
 //REARRANGE ARRAY ELEMENTS BY SIGN 
+#include<bits/stdc++.h>
+using namespace std;
 //IF EQUAL ELEMENTS
 //brute O(n)+O(n)
 void rearrangeArrayBrute(int a[],int n){
