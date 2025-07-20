@@ -1,4 +1,6 @@
 //LINEAR SEARCH
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n) 
 void linearSearchBrute(int arr[],int n,int target){
     for(int i=0;i<n;i++){
