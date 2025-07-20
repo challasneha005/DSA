@@ -1,4 +1,6 @@
 //UNION OF TWO SORTED ARRAYS
+#include<bits/stdc++.h>
+using namespace std;
 //brute  O(n1 log n+n2 log n)+O(n1+n2)
 void unionSortedBrute(int a[],int n,int b[],int m){
     set <int> s;
