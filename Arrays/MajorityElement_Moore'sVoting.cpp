@@ -1,4 +1,6 @@
 //MAJORITY ELEMENTS >n/2
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n)
 int majorityElementBrute(int a[],int n){
     for(int i=0;i<n;i++){
