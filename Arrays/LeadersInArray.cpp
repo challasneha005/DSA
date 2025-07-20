@@ -1,4 +1,6 @@
 //LEADERS IN AN ARRAY -everything in right should be smaller
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n)
 vector<int> leadersBrute(int a[],int n){
     vector <int> ans;
