@@ -1,4 +1,6 @@
 //REMOVE DUPLICATES IN SORTED ARRAY 
+#include<bits/stdc++.h>
+using namespace std;
 // brute  O(n log n+n)
 int setUnique(int arr[],int n){
     set <int> s;
