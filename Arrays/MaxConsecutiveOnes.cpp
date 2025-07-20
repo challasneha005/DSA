@@ -1,4 +1,6 @@
 //MAX CONSECUTIVE ONES
+#include<bits/stdc++.h>
+using namespace std;
 int maxConsecutiveOnes(int a[],int n){
     int maxOnes = 0,cnt=0;
     for(int i=0;i<n;i++){
