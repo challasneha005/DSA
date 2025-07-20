@@ -1,4 +1,6 @@
 //LONGEST SUBARRAY WITH SUM -K  POSITIVES
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n*n)
 void longestSubarrayBrute(int a[],int n,int target){
     int len=0;
