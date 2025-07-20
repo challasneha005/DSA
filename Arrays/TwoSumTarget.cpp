@@ -1,4 +1,6 @@
 //TWO SUM PROBLEMS elements sum = target,return index also
+#include<bits/stdc++.h>
+using namespace std;
 //brute O(n*n)
 void twoSumBrute(int a[],int n,int target){
     bool found = false;
