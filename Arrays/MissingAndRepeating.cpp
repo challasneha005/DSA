@@ -55,7 +55,7 @@ void missingRepeatNumberOptimalSum(int a[],int n){
     cout << "Repeating number: " << x << endl;
     cout << "Missing number: " << y << endl;
 }
-//optimal xr
+//optimal xr O(n)
 void missingRepeatNumberOptimalXor(int a[],int n){
     int xr = 0;
     for(int i=0;i<n;i++){
