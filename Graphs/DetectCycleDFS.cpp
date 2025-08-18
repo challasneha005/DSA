@@ -1,4 +1,4 @@
-//DETECT CYCLE IN UNDIRECTED GRAPGH DFS O(n+2E)+n , O(2n)
+ //DETECT CYCLE IN UNDIRECTED GRAPGH DFS O(n+2E)+n , O(2n)
 #include<bits/stdc++.h>
 using namespace std;
 bool dfs(int node,int parent,vector<int> &vis,vector<vector<int>> &a){
@@ -15,7 +15,7 @@ bool dfs(int node,int parent,vector<int> &vis,vector<vector<int>> &a){
 }
 bool isCyclic(int V,vector<vector<int>> &a){
     vector<int> vis(V,0);  
-    for(int i=0;i<V;i++){
+    for(int i=1;i<=V;i++){
         if(!vis[i]){
             if(dfs(i,-1,vis,a) == true)
                 return true;
@@ -27,19 +27,17 @@ bool isCyclic(int V,vector<vector<int>> &a){
 int main(){
     int n,e;
     cin >> n >> e;
-    vector<vector<int>> a(n);
+    vector<vector<int>> a(n+1);
     for(int i=0;i<e;i++){
         int u,v;
         cin >> u >> v;
-        u--;
-        v--;
         a[u].push_back(v);
         a[v].push_back(u);
     }
-    for (int i = 0; i < n; i++) {
-        cout << i+1 << ": ";
+    for (int i = 1; i <= n; i++) {
+        cout << i << ": ";
         for (int neighbor : a[i]) {
-            cout << neighbor+1 << " "; //display only
+            cout << neighbor << " "; 
         }
         cout << endl;
     }
@@ -49,3 +47,11 @@ int main(){
         cout << "No cycle in the graph." << endl;
     return 0;
 }
+// 7 7
+// 1 2
+// 1 3
+// 2 5 
+// 3 6
+// 3 4
+// 5 7
+// 6 7
