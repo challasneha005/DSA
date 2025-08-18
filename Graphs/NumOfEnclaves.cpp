@@ -56,3 +56,9 @@ int main() {
     cout << "Number of Enclaves = " << numEnclaves(grid) << "\n";
     return 0;
 }
+// Enter rows and cols: 4 4
+// Enter grid (0 water, 1 land):
+// 0 0 0 0
+// 1 0 1 0
+// 0 1 1 0
+// 0 0 0 0
