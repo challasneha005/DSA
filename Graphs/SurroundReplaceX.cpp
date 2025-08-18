@@ -60,3 +60,9 @@ int main() {
     }
     return 0;
 }
+// Enter rows and cols: 4 4
+// Enter board (O/X):
+// X X X X
+// X O O X
+// X X O X
+// X O X X
