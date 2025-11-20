@@ -32,7 +32,7 @@ int tab(vector<vector<int>> &triangle,int n,vector<vector<int>> &dp){
     }
     return dp[0][0];
 }
-//tab O(n*n) , O(n*n)
+//tab O(n*n) , O(n)
 int spacetab(vector<vector<int>> &triangle,int n){
     vector<int> front(n,0),cur(n,0);
     for(int j=0;j<n;j++)
