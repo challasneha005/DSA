@@ -1,4 +1,4 @@
-// JOB SEQUENCING
+// JOB SEQUENCING O(n log n*maxdl) , O(maxDl)
 #include<bits/stdc++.h>
 using namespace std;
 struct Job {
