@@ -1,4 +1,4 @@
-// SHORTEST JOB FIRST..RETURN AVG WAITING TIME
+// SHORTEST JOB FIRST..RETURN AVG WAITING TIME O(n+n log n), O(1)
 #include<bits/stdc++.h>
 using namespace std;
 long long SJFavgwt(vector<int> &a){
