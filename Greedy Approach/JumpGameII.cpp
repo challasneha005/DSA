@@ -1,4 +1,4 @@
-// JUMP GAME - Min Steps to reach end
+// JUMP GAME - Min Steps to reach end O(n*n) , O(n*n)
 #include<bits/stdc++.h>
 using namespace std;
 // CAN ALSO BE DONE USING DP..
