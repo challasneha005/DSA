@@ -1,4 +1,4 @@
-// JUMP GAME - Able to reach end
+// JUMP GAME - Able to reach end O(n) , O(1)
 #include<bits/stdc++.h>
 using namespace std;
 bool reachEnd(vector<int> &a){
