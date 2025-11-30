@@ -1,4 +1,4 @@
-// N MEETINGS ONE ROOM 
+// N MEETINGS IN ONE ROOM O(2n+log n) , O(3n+n)
 #include<bits/stdc++.h>
 using namespace std;
 
