@@ -28,6 +28,8 @@ Patterns covered:
 5.MaxConsecutiveOnesIII.cpp  
 6.MaxFruitInBasket.cpp  
 
+---
+
 ## 🟡 Medium Problems
 
 (Variable window with conditions and counting logic)
@@ -36,6 +38,8 @@ Patterns covered:
 10.CountSubstringContainKChars.cpp  
 11.BinarySubarraySumK.cpp  
 12.CountNiceSubarrays.cpp  
+
+---
 
 ## 🔴 Hard Problems
 
