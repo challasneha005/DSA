@@ -1,6 +1,28 @@
-// JOB SEQUENCING O(n log n*maxdl) , O(maxDl)
+ // JOB SEQUENCING O(n log n*maxdl) , O(maxDl)
+
 #include<bits/stdc++.h>
 using namespace std;
+
+// TIME COMPLEXITY: O(n log n*maxdl)
+// SPACE COMPLEXITY : O(maxdl)
+
+/*
+APPROACH:
+1. Sort all jobs in descending order of profit so that more profitable jobs
+   are considered first.
+2. Find the maximum deadline among all jobs to determine the number of
+   available time slots.
+3. Create an array (hash) to represent time slots, where each index denotes
+   a unit of time and -1 indicates a free slot.
+4. Traverse the sorted jobs one by one and for each job, try to schedule it
+   at the latest available slot on or before its deadline.
+5. If a free slot is found, assign the job to that slot, increment the job
+   count, and add its profit to the total profit.
+6. Continue this process until all jobs are processed.
+7. Return the total number of jobs scheduled and the maximum profit obtained.
+*/
+
+
 struct Job {
     int id;
     int deadline;
@@ -29,6 +51,7 @@ pair<int,int> jobSequencing(vector<Job> &a){
     }
     return {cnt,totalProfit};
 }
+
 int main() {
 
     vector<Job> jobs = {
