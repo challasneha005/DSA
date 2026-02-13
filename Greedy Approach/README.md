@@ -8,8 +8,8 @@ All programs are stored in a **single folder**, but they are **logically categor
 
 ## 🟢 Easy Problems
 
-1. AssignCookies.cpp  
-2. LemonadeChange.cpp  
+01. AssignCookies.cpp  
+02. LemonadeChange.cpp  
 11. ValidStringParenthesis.cpp  
 13. FractionalKnapsack.cpp   
 
@@ -17,15 +17,15 @@ All programs are stored in a **single folder**, but they are **logically categor
 
 ## 🟡 Medium Problems
 
-4. JumpGame.cpp  
-5. JumpGameII.cpp 
-6. JobSequencing.cpp 
-7. NMeetingOneRoom.cpp   
-8. MinRemovalsNonOverlapping.cpp 
-9. InsertInterval.cpp 
+03. ShortestJobFirst.cpp  
+04. JumpGame.cpp  
+05. JumpGameII.cpp 
+06. JobSequencing.cpp 
+07. NMeetingOneRoom.cpp   
+08. MinRemovalsNonOverlapping.cpp 
+09. InsertInterval.cpp 
 10. MinPlatforms.cpp  
 12. MinCandyRatings.cpp  
-13. ShortestJobFirst.cpp  
 
 ---
 
