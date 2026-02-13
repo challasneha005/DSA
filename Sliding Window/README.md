@@ -21,6 +21,7 @@ Patterns covered:
 ## 🟢 Easy Problems
 
 (Constant window and basic variable window problems)
+
 1.MaxSumConstantWindowk.cpp  
 2.LongestSubarrayCondition.cpp  
 3.MaxScoreFromCards.cpp  
