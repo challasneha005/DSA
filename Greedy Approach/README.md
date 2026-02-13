@@ -8,12 +8,12 @@ All programs are stored in a **single folder**, but they are **logically categor
 
 ## 🟢 Easy Problems
 
-```
-01. AssignCookies.cpp  
-02. LemonadeChange.cpp  
-11. ValidStringParenthesis.cpp  
-13. FractionalKnapsack.cpp   
-```
+
+01\. AssignCookies.cpp  
+02\. LemonadeChange.cpp  
+11\. ValidStringParenthesis.cpp  
+13\. FractionalKnapsack.cpp   
+
 
 ---
 
