@@ -8,18 +8,18 @@ All programs are stored in a **single folder**, but they are **logically categor
 
 ## 🟢 Easy Problems
 
-'''
+```
 01. AssignCookies.cpp  
 02. LemonadeChange.cpp  
 11. ValidStringParenthesis.cpp  
 13. FractionalKnapsack.cpp   
-'''
+```
 
 ---
 
 ## 🟡 Medium Problems
 
-'''
+```
 03. ShortestJobFirst.cpp  
 04. JumpGame.cpp  
 05. JumpGameII.cpp 
@@ -29,7 +29,7 @@ All programs are stored in a **single folder**, but they are **logically categor
 09. InsertInterval.cpp 
 10. MinPlatforms.cpp  
 12. MinCandyRatings.cpp 
-'''
+```
 
 ---
 
