@@ -19,17 +19,17 @@ All programs are stored in a **single folder**, but they are **logically categor
 
 ## 🟡 Medium Problems
 
-```
-03. ShortestJobFirst.cpp  
-04. JumpGame.cpp  
-05. JumpGameII.cpp 
-06. JobSequencing.cpp 
-07. NMeetingOneRoom.cpp   
-08. MinRemovalsNonOverlapping.cpp 
-09. InsertInterval.cpp 
-10. MinPlatforms.cpp  
-12. MinCandyRatings.cpp 
-```
+
+03\. ShortestJobFirst.cpp  
+04\. JumpGame.cpp  
+05\. JumpGameII.cpp 
+06\. JobSequencing.cpp 
+07\. NMeetingOneRoom.cpp   
+08\. MinRemovalsNonOverlapping.cpp 
+09\. InsertInterval.cpp 
+10\. MinPlatforms.cpp  
+12\. MinCandyRatings.cpp 
+
 
 ---
 
