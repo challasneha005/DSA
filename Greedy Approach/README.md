@@ -11,7 +11,7 @@ All programs are stored in a **single folder**, but they are **logically categor
 1. AssignCookies.cpp  
 2. LemonadeChange.cpp  
 11. ValidStringParenthesis.cpp  
-13. FractionalKnapsack.cpp  
+13. FractionalKnapsack.cpp   
 
 ---
 
@@ -42,6 +42,6 @@ All programs are stored in a **single folder**, but they are **logically categor
 
 ---
 
-⭐ If you find this repository helpful, don’t forget to **star** it on GitHub.
+⭐ If you find this repository helpful, don’t forget to **star it on GitHub**.
 
 Happy Coding 🚀
