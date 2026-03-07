@@ -1,4 +1,5 @@
 //BINARY SEARCH -sort n unique elements
+
 #include<bits/stdc++.h>
 using namespace std;
 //Iterative O(log n ),space O(1)
