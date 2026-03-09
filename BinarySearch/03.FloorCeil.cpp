@@ -1,4 +1,5 @@
 //FLOOR AND CEIL
+
 #include<bits/stdc++.h>
 using namespace std;
 int floor(int a[],int n,int target){
